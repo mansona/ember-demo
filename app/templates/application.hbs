@@ -1,5 +1,7 @@
 <h2 id='title'>Welcome to Ember.js</h2>
 
-{{#link-to 'posts.index'}}Posts{{/link-to}}
+{{#link-to 'index' class="button radius round"}}Home{{/link-to}}
+{{#link-to 'posts' 1 class="button radius round"}}Posts{{/link-to}}
+{{#link-to 'people.index' class="button radius round"}}People{{/link-to}}
 
 {{outlet}}

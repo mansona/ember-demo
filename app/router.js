@@ -5,8 +5,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-    this.resource("posts", function(){
+    this.resource("posts", {path: "/posts/:id"});
 
+    this.resource("people", function(){
     });
 });
 
